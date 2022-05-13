@@ -1,8 +1,12 @@
+import React from "react";
+
+import Welcome from "./Components/Welcome Message/Welcome";
+import Container from "./Components/Container/Container";
 function App() {
   return (
-    <div>
-      <h1>This is Todo App</h1>
-    </div>
+    <Container>
+      <Welcome />
+    </Container>
   );
 }
 
