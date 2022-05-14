@@ -3,7 +3,7 @@ import React from "react";
 import "./Container.css";
 
 const Container = function (props) {
-  return <main className="container">{props.children}</main>;
+  return <div className="container">{props.children}</div>;
 };
 
 export default Container;

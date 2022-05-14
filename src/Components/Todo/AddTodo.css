@@ -1,0 +1,11 @@
+.AddTodoContainer {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  margin-top: -53px;
+}
+.Addbutton {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}

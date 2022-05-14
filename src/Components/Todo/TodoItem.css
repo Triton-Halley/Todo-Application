@@ -1,0 +1,28 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.checkbox {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.checkbox:hover {
+  border-color: black;
+}
+
+.checkbox:checked {
+  background-color: green;
+
+  /* background-image: url("../../Images/AddIcon-500px.png"); */
+}

@@ -1,0 +1,12 @@
+.TodoDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.P-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.moneth-year {
+  margin-left: 10px;
+}
