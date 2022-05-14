@@ -26,3 +26,7 @@
 
   /* background-image: url("../../Images/AddIcon-500px.png"); */
 }
+.taskFinished {
+  text-decoration: line-through;
+  color: gray;
+}

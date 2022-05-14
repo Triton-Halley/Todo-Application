@@ -4,11 +4,15 @@ import "./TodoItem.css";
 import logo from "../../Images/AddIcon-500px.png";
 
 const TodoItem = function (prop) {
+  const onCheckedHandler = function (e) {
+    // console.log();
+    e.target.previousSibling.classList.toggle("taskFinished");
+  };
   return (
     <div className="TodoItem">
       {/* name */}
-      <div>Finsih React</div>
-      <input className="checkbox" type="checkbox" />
+      <div>{prop.name}</div>
+      <input className="checkbox" onClick={onCheckedHandler} type="checkbox" />
     </div>
   );
 };

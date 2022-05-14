@@ -1,0 +1,40 @@
+.Form-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-input {
+  outline: 0;
+  margin-top: 5px;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1;
+}
+.btns button {
+  margin: 0 5px;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btns button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+  display: 0;
+}
+
+.show {
+  opacity: 1;
+  transition: all 0.6s ease-out;
+}

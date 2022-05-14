@@ -4,11 +4,11 @@ import "./Todo.css";
 import TodoDate from "./TodoDate";
 import TodoList from "./TodoList";
 
-const Todo = function () {
+const Todo = function (prop) {
   return (
     <div className="Todo-container">
       <TodoDate />
-      <TodoList />
+      <TodoList addTodo={prop.func} />
     </div>
   );
 };
